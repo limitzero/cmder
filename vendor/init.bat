@@ -11,7 +11,7 @@
 :: Mmm tasty lamb
 ::@prompt $E[1;32;40m$P$S{git}{hg}$S$_$E[1;30;40m{lamb}$S$E[0m --> original (adding lamba (λ) symbol as prompt for my version on standard command prompts... FYI ASCII cannot represent lamba, going to use > ($G) instead!!!)
 :: see http://www.hanselman.com/blog/ABetterPROMPTForCMDEXEOrCoolPromptEnvironmentVariablesAndANiceTransparentMultiprompt.aspx on formatting the command prompt
-@prompt $E[1;32;40m[$P]$S$S$_$E[1;30;40m$G$S$E[0m
+@prompt $E[1;32;40m$P$S{git}{hg}$S$_$E[1;30;40m{lamb}$S$E[0m
 
 :: Pick right version of clink
 @if "%PROCESSOR_ARCHITECTURE%"=="x86" (
